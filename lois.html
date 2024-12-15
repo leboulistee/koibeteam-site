@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>République de la Koibéteam</title>
+</head>
+<body>
+    <header>
+        <img src="image-index/drapeau-kbt.png" alt="Logo de la Koibéteam">
+        <h1>RÉPUBLIQUE DE <br> LA KOIBÉTEAM
+        </h1>
+        <div class="lek">Liberté<br>Égalité<br>Koicoubé</div>
+        <div class="menu">
+            <a href = "index.html"><button class="button-28" role="button">NOTRE RÉPUBLIQUE</button></a>
+            <a href = "lois.html"><button class="button-28" role="button">TEXTES DE LOIS</button></a>
+            <a href = "index.html"><button class="button-28" role="button">DEVENIR CITOYEN</button></a></div>
+    </header>
+    <div class = "ligne"><br></div>
+    <main>
+        <div class="diaporama-container">
+            <div class="container2" id="diapo1">
+                <div class="slides">
+                    <img src="image-lois/constijtution-p1.png" style="width:70%">
+                </div>
+                <div class="slides">
+                    <img src="image-lois/constijtution-p2.png" style="width:70%">
+                </div>
+                <div class="slides">
+                    <img src="image-lois/constijtution-p3.png" style="width:70%">
+                </div>
+                <div class="slides">
+                    <img src="image-lois/constijtution-p4.png" style="width:70%">
+                </div>
+                <div class="slides">
+                    <img src="image-lois/constijtution-p5.png" style="width:70%">
+                </div>
+                <div class="slides">
+                    <img src="image-lois/constijtution-p6.png" style="width:70%">
+                </div>
+                <div class="slides">
+                    <img src="image-lois/constijtution-p7.png" style="width:70%">
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 'diapo1')">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 'diapo1')">&#10095;</a>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1, 'diapo1')"></span>
+                    <span class="dot" onclick="currentSlide(2, 'diapo1')"></span>
+                    <span class="dot" onclick="currentSlide(3, 'diapo1')"></span>
+                </div>
+            </div>
+    
+            <div class="container3" id="diapo2">
+                <div class="slides">
+                    <img src="image-lois/DDHC-p1.png" style="width:70%">
+                </div>
+                <div class="slides">
+                    <img src="image-lois/DDHC-p2.png" style="width:70%">
+                </div>
+                <div class="slides">
+                    <img src="image-lois/DDHC-p3.png" style="width:70%">
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 'diapo2')">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 'diapo2')">&#10095;</a>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1, 'diapo2')"></span>
+                    <span class="dot" onclick="currentSlide(2, 'diapo2')"></span>
+                    <span class="dot" onclick="currentSlide(3, 'diapo2')"></span>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="diapo.js"></script>
+
+
+</body>
+</html>
